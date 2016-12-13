@@ -1423,13 +1423,19 @@ input:first-of-type
 {
   margin-top:35px;
 }
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #868686;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: #868686;
+}
 input, textarea {
   font-size: 1em;
   padding: 15px 10px 10px;
   font-family: 'Source Sans Pro',arial,sans-serif;
   border: 1px solid #cecece;
-  background: #1e3347;
-  color:#FAFAFA;
+  background: #fff;
+  color:#868686;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
